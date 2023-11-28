@@ -1,3 +1,3 @@
 # Art Gallery Chat
 
-This React and Node.js application fetches photos from the Node.js server and lets users talk and interact with eachother. The application was made as a home assignment for a previous interview.
+This React application present art gallery photos to users and them chat and interact with eachother through the Node.js server. The application was made as a home assignment for a previous interview.
