@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+}
+
+.headerDiv {
+  margin-top: 4rem;
+  font-size: 65px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.Serch-input {
+  width: 95%;
+  margin-left: 2.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 50px;
+  /* border: 2px solid black; */
+}
+
+.Serch-input > * {
+  background: white;
+  border-radius: 12.5px;
+}
+
+.Photos-container {
+  width: 100%;
+  height: 700px;
+  margin-bottom: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid black; */
+}
+
+/* .swiper {
+  overflow: visible !important;
+} */
+
+.photo-slider {
+  width: 100%;
+  display: flex;
+  /* border: 1px solid black; */
+}
+
+.photo-slider .Photo-item {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+}
